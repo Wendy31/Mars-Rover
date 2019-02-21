@@ -44,4 +44,4 @@ UNIT TEST
     - To run test: in your terminal, enter to the "mochatest" folder and run "npm test". 
 
 
-GitHub link: 
+GitHub link: https://wendy31.github.io/Mars-Rover/src/index 
