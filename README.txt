@@ -23,7 +23,7 @@ The solution is devised using 3 classes:
 
 2) class Rover
     - This class contains and maintains the rover position (coordinates and direction faced). 
-    - It also contains the given input data as commands issued to the rover.
+    - It also contains the given input data as commands, issued to the rover.
 
     BRIEF EXPLANATION OF SOME FUNCTIONS USED:
     - runMission(): takes command as string of letters and determines the rover's action, by executing the approriate methods e.g "M" executes moveForward() and "L" executes turn().
@@ -41,7 +41,7 @@ The solution is devised using 3 classes:
 UNIT TEST
     - Various methods of the class Rover were used as examples of testing.
     - Find the written test in "test.js" file.
-    - To run test: follow the PREREQUISITES above
+    - To run test: be sure to have followed the PREREQUISITES above
         - Once all installations made, in your terminal, enter inside the "mochatest" folder and run "npm test". 
 
 
