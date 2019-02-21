@@ -26,22 +26,22 @@ The solution is devised using 3 classes:
     - It also contains the given input data as commands issued to the rover.
 
     BRIEF EXPLANATION OF SOME FUNCTIONS USED:
-    - runMission(): takes command line as string of letters and determines the rover's action, by executing the approriate methods e.g "M" executes moveForward() and "L" executes turn().
+    - runMission(): takes command as string of letters and determines the rover's action, by executing the approriate methods e.g "M" executes moveForward() and "L" executes turn().
     - waitOneSecond(): I added 1 second pause between each movement to emulate the steps the rover is taking (for visual purposes).
     - moveForward(): this method advances the rover one step ahead from its current position. For example if the rover’s current direction is North and coordinates are (1,3), then the new coordinates of rover will be (1,4) along the y axis, going North.
     - turn(): method turns the rover 90 degrees to its left or right using a modulus of 4 e.g. The remainders start at 0 and increases by 1 each time, until the number reaches one less than the number we are dividing by. After that, the sequence repeats.
     - getDirectionIndex(): returns index of cardinal compass points i.e. the position of the letters in an array.
 
 3) class RoverLauncher
-    - The class is used to connect the rovers
-    - addRoverToMission(): accepts rover object as parameter and stored in an array.
-    - start(): determines who starts first (by order of elements inside array), and therefore sequentially thereafter invoking runMission().
+    - The class is used to connect the rovers.
+    - addRoverToMission(): accepts rover object as parameter and stores it into an array.
+    - start(): determines which rover starts first (by order of elements inside array), and sequentially thereafter, invoking runMission().
 
 
 UNIT TEST
     - Various methods of the class Rover were used as examples of testing.
     - Find the written test in "test.js" file.
-    - To run test: in your terminal, enter the "mochatest" folder and run "npm test". 
+    - To run test: in your terminal, enter to the "mochatest" folder and run "npm test". 
 
 
 GitHub link: 
