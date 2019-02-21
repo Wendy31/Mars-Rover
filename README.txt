@@ -41,7 +41,8 @@ The solution is devised using 3 classes:
 UNIT TEST
     - Various methods of the class Rover were used as examples of testing.
     - Find the written test in "test.js" file.
-    - To run test: in your terminal, enter to the "mochatest" folder and run "npm test". 
+    - To run test: follow the PREREQUISITES above
+        - Once all installations made, in your terminal, enter inside the "mochatest" folder and run "npm test". 
 
 
 GitHub link: https://wendy31.github.io/Mars-Rover/src/index 
