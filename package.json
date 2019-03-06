@@ -1,0 +1,23 @@
+{
+  "name": "marsroverjs_wc",
+  "version": "1.0.0",
+  "description": "Thoughtworks Rover Test",
+  "main": "index.js",
+  "scripts": {
+    "rover": "node index.js input.txt",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wendy31/Mars-Rover.git"
+  },
+  "author": "Wendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wendy31/Mars-Rover/issues"
+  },
+  "homepage": "https://github.com/Wendy31/Mars-Rover#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
