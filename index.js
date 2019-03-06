@@ -10,7 +10,7 @@ if (process.argv.length != 3) { // validates the command line arguments passed i
 var inputs = fs.readFileSync(process.argv[2], 'utf8');
 var commands = inputs.split("\n");
 
-var gs = parseGridSize(commands[0])
+var gs = parseGridSize(commands[0]);
 console.log("The upper-right coordinates of the plateau are: " + gs);
 let mars = new Mars(gs[0], gs[1]);
 
@@ -22,13 +22,13 @@ var rover2SP = parseRoverPosition(commands[3]);
 let rover2 = new Rover("Rover 2", rover2SP[0], rover2SP[1], rover2SP[2]);
 rover2.setPath(commands[4]);
 
-mars.addRover(rover1)
-mars.addRover(rover2)
+mars.addRover(rover1);
+mars.addRover(rover2);
 mars.start();
 
 function parseGridSize(command) {
     var gridTextArr = command.split(" ");
-    return [parseInt(gridTextArr[0]), parseInt(gridTextArr[1])]
+    return [parseInt(gridTextArr[0]), parseInt(gridTextArr[1])];
 }
 
 function parseRoverPosition(command) {

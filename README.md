@@ -4,9 +4,9 @@
 - Node.js is used to execute the Javascript code on the server, outside of the browser. 
     - This means your machine will need to have node and npm installed.
     - To install, get the node.js LTS version from: https://nodejs.org/en/. npm gets installed along with node automatically.
-    - If you have node already, great! All you need to do is extract the zip file and run "npm install" in the terminal (or cmd) to create the node_modules folder (in the root directory, where "package.json" is) to be able to execute the code and unit test (see below for test instructions).
+    - If you have node already, great! All you need to do is extract the zip file, in your terminal (or cmd) enter inside the "marsRoverJS_WC" folder and run "npm install" to create the node_modules folder (in the root directory, where "package.json" is) to be able to execute the code and unit test (see below for test instructions).
     - To see the logged data run "npm run rover" in the terminal.
-    - You will see the output for each rover and the given plateau coordinates of 5, 5 in the terminal. 
+    - You will see the output for each rover and the given plateau coordinates of (5, 5) in the terminal. 
 
 ## UNIT TEST
 - For unit testing, I chose Jest which is a JavaScript test framework running on Node.js.
